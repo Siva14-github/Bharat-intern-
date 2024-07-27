@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Money Tracker</h1>
+        <form id="expense-form">
+            <input type="text" id="description" placeholder="Expense Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <form id="income-form">
+            <input type="text" id="income-description" placeholder="Income Description" required>
+            <input type="number" id="income-amount" placeholder="Amount" required>
+            <button type="submit">Add Income</button>
+        </form>
+        <div id="expenses-list">
+            <h2>Expenses</h2>
+            <ul id="expenses"></ul>
+        </div>
+        <div id="income-list">
+            <h2>Income</h2>
+            <ul id="income"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
