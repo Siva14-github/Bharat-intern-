@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>processing forms</title>
+  </head>
+<body>
+<u><h1 align="center">STUDENT REGISTRATION FORM</h1></u>
+<form name="student" action="d:\bca\student.html" method="post">
+  <p>FULL NAME: <input name="sname" type="text" size="30"></p>
+  <p>USER NAME: <input name="uname" type="text" size="30"></p>
+  <p>PASSWORD: <input name="pw" type="password" size="30"></p>
+  <p>FATHER NAME: <input name="fname" type="text" size="30"></p>
+  <p>MOTHER NAME: <input name="mname" type="text" size="30"></p>
+  <p>ADDRESS: <textarea name="addr" rows="5" cols="30" maxlength=200>
+              </textarea></p>
+  <p>GENDER: <input name="gender" type="radio" value="male" checked> Male 
+             <input name="gender" type="radio" value="female"> Female </p>
+  <p>COURSE: <select name="course">
+                  <option value="bsc">BSC</option>
+                  <option value="bcom">BCOM</option>
+                  <option value="bca">BCA</option>
+                  <option value="bba">BBA</option>
+             </select></p>
+  <p>AGE: <input name="age" type="text" size="10"></p>
+  <p>LANGUAGES KNOWN: <input name="eng" type="checkbox" value="English">English
+                      <input name="tel" type="checkbox" value="Telugu">Telugu
+                      <input name="hin" type="checkbox" value="Hindi">Hindi</p>
+  <p><input name="reg" type="submit" value="Register">
+     <input name="cancel" type="reset"></p>                   
+</form>
+</body> 
+</html>
